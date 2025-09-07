@@ -1,0 +1,162 @@
+
+
+.content-journey{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    padding: 0 20px;
+    margin-bottom: 40px;
+    margin: 10px 50px;
+}
+
+.education{
+    margin-left: 40px;
+}
+
+.journey-title{
+    margin-bottom: 30px;
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+
+.journey-subtitle{
+    margin-bottom: 20px;
+    font-family: var(--main-font);
+    font-size: 20px;
+    color: var(--accent-color);
+    
+}
+
+.content-journey p{
+    margin: 0;
+}
+
+.content-journey h3{
+    margin: 0;
+}
+
+.journey-content{
+    font-family: var(--span-font);
+    font-size: 16px;
+    color: var(--secondary-color);
+    line-height: 1.5;
+}
+
+.experience{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+/* keep your existing styles, just adding new ones */
+
+.horizontal-line {
+    width: 88%;
+    background-color: var(--accent-color);
+    height: 2px;
+    margin: 20px 0;
+    position: relative; /* so we can place dashed lines inside */
+  }
+  
+  /* dashed line upward (start) */
+  .horizontal-line::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -100px; /* length of dashed line upward */
+    width: 0;
+    height: 100px;
+    border-left: 2px dashed var(--accent-color);
+  }
+  
+  /* circle at the end of upward line */
+  .horizontal-line::after {
+    content: "";
+    position: absolute;
+    left: -6px; /* center it with the dashed line */
+    top: -110px; /* little above the dashed line */
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--background-color);
+    border: 2px solid var(--accent-color);
+  }
+  
+  /* dashed line downward (end) */
+  .hl::after {
+    content: "";
+    position: absolute;
+    right: 6%;
+    top: 50%;
+    width: 0;
+    height: 100px;
+    border-left: 2px dashed var(--accent-color);
+  }
+  
+  /* circle at the end of downward line */
+  .hl::before {
+    content: "";
+    position: absolute;
+    right: calc(6% - 6px); /* align with dashed line */
+    top: calc(100% + 80px); /* at bottom of dashed line */
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--background-color);
+    border: 2px solid var(--accent-color);
+  }
+  
+  /* make sure hl wrapper is relative */
+  .hl {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative; /* for absolute positioning */
+  }
+  
+
+  .center-circle {
+    position: absolute;
+    top: 50%;       /* middle of the line */
+    left: 50%;      /* center horizontally */
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--background-color);
+    border: 2px solid var(--accent-color);
+  }
+  
+
+
+
+  .boho{
+    position: relative;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  img{
+    width: 200px;
+    height: 250px;
+  }
+
+  .boho1{
+    position: absolute;
+    top: 0;
+    right: -90px;
+    
+  }
+  .boho2{
+    position: absolute;
+    bottom: -5px;
+    left: -90px;
+  }

@@ -1,0 +1,56 @@
+.AboutMe {
+    background-color: var(--section-color);
+    position: relative;
+    padding: 40px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 0;
+  }
+  
+
+
+.content p{
+    text-align: center;
+    font-family: var(--span-font);
+    font-size: larger;
+    color: var(--main-color);
+    line-height: 2;
+    margin-bottom: 40px;
+}
+
+.content{
+    padding: 0 20px;
+}
+
+.wave-top,
+.wave-down {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-top {
+  top: 0;
+}
+
+.wave-down {
+  bottom: 0;
+}
+
+.wave-top svg,
+.wave-down svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.wave-down svg {
+  transform: rotate(180deg);
+}

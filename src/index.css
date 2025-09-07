@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Italiana&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Italiana&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Sahitya:wght@400;700&display=swap');
+
+:root {
+  --main-color: #59695C;
+  --secondary-color: #A2B6B7;
+  --section-color: #E9DBCE;
+  --background-color: #E2E1DF;
+  --accent-color: #C29B40;
+  --main-font: "Glass Antiqua", cursive;
+  --span-font: "Serenity", serif;
+}
+
+.header-title {
+  position: relative; /* needed for pseudo elements */
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header-title h1 {
+  font-family: var(--main-font);
+  font-weight: normal;
+  color: var(--main-color);
+  display: inline-block;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+/* Decorative line */
+.header-title h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 120px; /* line length */
+  height: 2px;
+  background-color: var(--main-color);
+  border-radius: 1px;
+}
+
+/* Circle in the middle */
+.header-title h1::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px; /* slightly below the line */
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden; /* also helps with horizontal scroll */
+  background-color: var(--background-color);
+}
+* {
+  box-sizing: inherit;
+}
+
+.boho-divider {
+  position: relative;
+  width: 10%;
+  height: 200px; /* space for the cloud */
+  margin-top: -50px; /* overlap hero and about */
+}
+
+.cloud-shape {
+  position: absolute;
+  left: -12px; /* push a bit outside so it blends */
+  top: 0;
+  height: 220%; /* full height of divider */
+  width: auto;   /* keep proportions */
+  opacity: 0.3;
+  /* transform: rotate(180deg); flip if you need */
+  z-index: 1;
+  pointer-events: none; /* don’t block clicks */
+}
+
+.cloud-shape img{
+  width: auto;
+}
+
+.sun{
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.sunny {
+  position: absolute;
+  left: -90px;
+  bottom: -165px;
+}
+
+.sunny1 {
+  position: absolute;
+  right: -80px;
+  bottom: -165px;
+}
+
+.sun img{
+  width: 200px;
+  height: 350px;
+}
+
+
+.portfolioPage{
+  width: 100%;
+}

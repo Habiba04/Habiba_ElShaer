@@ -1,0 +1,47 @@
+/* navbar.css */
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;          /* centers vertically */
+    color: var(--background-color);
+    background-color: var(--main-color);
+    padding: 16px 32px;
+    margin: 16px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 16px;                    /* added px */
+    left: 16px;
+    right: 16px;
+    z-index: 9999;
+    font-family: var(--main-font);
+}
+
+/* remove bullets + spacing for links */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 24px;                    /* spacing between links */
+}
+
+/* links inherit navbar style */
+.navbar a {
+    text-decoration: none;
+    color: var(--background-color);
+    font-size: 1rem;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navbar .name{
+    font-size: larger;
+}
