@@ -16,7 +16,7 @@ const Hero = () => {
                     <div className="welcome">
                         <span>
                             <strong>Hi, I’m Habiba!</strong><br />
-                            Welcome to my corner of the web. I love turning ideas into meaningful digital experiences that inspire, engage, and simplify everyday life. Here, you’ll get a glimpse of my work and passion for crafting solutions that leave a lasting impact.
+                            I love turning ideas into digital experiences that feel simple, modern, and engaging. Whether it’s a website or a mobile app, my goal is to make technology feel natural and enjoyable to use.
                         </span>
                     </div>
                 </div>
