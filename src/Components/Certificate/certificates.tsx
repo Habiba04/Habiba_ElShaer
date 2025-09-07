@@ -7,13 +7,13 @@ const Certificates = () => {
       title: "UI/UX Design",
       issuer: "Sprints",
       date: "Jun. 2025",
-      link: "/assets/sprints.pdf"
+      link: "assets/sprints.pdf"
     },
     {
       title: "Cyber Security",
       issuer: "BUE, Impact",
       date: "Aug. 2024",
-      link: "/assets/cyberSecurity.jpg"
+      link: "assets/cyberSecurity.jpg"
     },
     {
       title: "Artificial Intelligence and Machine Learning",

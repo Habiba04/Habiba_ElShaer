@@ -9,7 +9,7 @@ const Journey = () => {
             </div>
             <div className="boho">
                 <div className="boho1">
-                    <img src="/assets/boho.png" alt="boho" />
+                    <img src="assets/boho.png" alt="boho" />
                 </div>
             </div>
             <div className="education">
@@ -45,7 +45,7 @@ const Journey = () => {
             </div>
             <div className="boho">
                 <div className="boho2">
-                    <img src="/assets/boho.png" alt="boho" />
+                    <img src="assets/boho.png" alt="boho" />
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@ const Hero = () => {
 
                 <div className="image-container">
                     {/* <div className="image-background-shape"></div> */}
-                    <img src="/assets/portfolio-img.png" alt="Habiba" />
+                    <img src="assets/portfolio-img.png" alt="Habiba" />
                 </div>
                 <div className="button">
                     <button className="btn-explore" onClick={() => {
@@ -32,7 +32,6 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/* <div className="clouds-shape"></div> */}
         </div>
     );
 };

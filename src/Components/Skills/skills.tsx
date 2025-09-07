@@ -18,7 +18,7 @@ const Skills: React.FC = () => {
             </div>
 
             {/* Background image */}
-            <img src="/assets/skills.png" alt="skills background" className="skills-bg" />
+            <img src="assets/skills.png" alt="skills background" className="skills-bg" />
 
             <div className="skills-grid">
                 {skillsData.map((skill, index) => {

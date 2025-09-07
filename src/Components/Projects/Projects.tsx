@@ -15,35 +15,35 @@ const projectsData: Project[] = [
         title: "Orchid World Gate",
         description:
             "Developed and deployed the corporation’s landing page, with the primary objective of creating a strong first impression for visitors. The website was designed to clearly communicate the corporation’s values, highlight its range of services, and provide an intuitive user experience. By combining clean design with responsive frontend development, the landing page helped establish credibility, improve brand perception, and make essential information easily accessible to potential clients.",
-        image: "/assets/orchid.jpeg",
+        image: "assets/orchid.jpeg",
         tools: ["HTML", "CSS", "Github"],
     },
     {
         title: "Helwan University Club",
         description:
             "Designed the UI and developed the frontend for Phase 1 of the system, focusing on seamless member registration and secure online payments. Integrated modern technologies like RFID cards for quick access, and implemented features to simplify booking activities and facilities.",
-        image: "/assets/huc.jpg",
+        image: "assets/huc.jpg",
         tools: ["ReactJS", "CSS", "Bootstrap", "Figma", "Git"],
     },
     {
         title: "Clinic Management System",
         description:
             "Developed a web application for clinic and doctor management, enabling patients to book appointments, access prescriptions, and communicate directly with doctors. Enhanced appointment efficiency by streamlining booking processes and optimizing patient–doctor communication.",
-        image: "/assets/clinic.png",
+        image: "assets/clinic.png",
         tools: ["ReactJS", "CSS", "Bootstrap", "Figma", "JSON-server", "Git"],
     },
     {
         title: "Real-time Cinema Booking System",
         description:
             "A real-time movie ticket booking platform that allows users to browse movies, select showtimes, and reserve seats seamlessly. Designed vendor-side features for managing cinemas, screenings, and listings, while ensuring a smooth customer experience through real-time seat availability updates and advanced filtering options. Improved the booking flow to make the process faster, more intuitive, and user-friendly.",
-        image: "/assets/movies.jpeg",
+        image: "assets/movies.jpeg",
         tools: ["Angular", "Figma", "Bootstrap", "NodeJS", "REST API", "Git"],
     },
     {
         title: "Test Designs for Mobile Applications",
         description:
             "A collection of experimental mobile app UI/UX designs created to explore different layouts, color schemes, and user flows. These concepts were designed as practice to refine my design process, experiment with creative ideas, and showcase versatility in crafting modern, user-friendly mobile interfaces.",
-        image: "/assets/flutter.png",
+        image: "assets/flutter.png",
         tools: ["Flutter", "Dart", "Git", "Local Storage", "Http Requests"],
     },
 ];
