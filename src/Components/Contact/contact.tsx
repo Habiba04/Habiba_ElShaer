@@ -21,7 +21,7 @@ const Contact = () => {
                     </div>
                     <div className="github">
                         <FontAwesomeIcon className='icon' icon={faGithub} />
-                        <a href="https://github.com/Habiba04">github.com/Habiba04</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Habiba04">github.com/Habiba04</a>
                     </div>
                     <div className="email">
                         <FontAwesomeIcon className='icon' icon={faEnvelope} />
@@ -29,7 +29,7 @@ const Contact = () => {
                     </div>
                     <div className="linkedin">
                         <FontAwesomeIcon className='icon' icon={faLinkedin} />
-                        <a href="https://www.linkedin.com/in/habibaelshaer/">linkedin.com/in/habibaelshaer</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/habibaelshaer/">linkedin.com/in/habibaelshaer</a>
                     </div>
                 </div>
             </div>
