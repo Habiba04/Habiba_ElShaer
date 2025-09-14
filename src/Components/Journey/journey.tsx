@@ -27,7 +27,7 @@ const Journey = () => {
             </div>
             <div className="hl">
                 <div className="horizontal-line">
-                <div className="center-circle"></div>
+                    <div className="center-circle"></div>
                 </div>
             </div>
             <div className="experience">
@@ -35,11 +35,21 @@ const Journey = () => {
                     <div className="journey-title">
                         <h3>Experience</h3>
                     </div>
-                    <div className="journey-subtitle">
-                        <p>FABMisr Service Desk Internship</p>
+                    <div className="exp1">
+                        <div className="journey-subtitle">
+                            <p>Freelance Web Designer</p>
+                        </div>
+                        <div className="journey-content">
+                            <p>Developed a responsive website for a small business, ensuring a visually appealing and user-friendly experience.</p>
+                        </div>
                     </div>
-                    <div className="journey-content">
-                        <p>Collaborated with various IT departments to gain insights into how corporate IT teams operate and approach problem-solving. Explored different strategies for addressing a wide range of technical challenges.</p>
+                    <div className="exp2">
+                        <div className="journey-subtitle">
+                            <p>FABMisr Service Desk Internship</p>
+                        </div>
+                        <div className="journey-content">
+                            <p>Collaborated with various IT departments to gain insights into how corporate IT teams operate and approach problem-solving. Explored different strategies for addressing a wide range of technical challenges.</p>
+                        </div>
                     </div>
                 </div>
             </div>

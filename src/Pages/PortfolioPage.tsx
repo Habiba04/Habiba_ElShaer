@@ -7,6 +7,7 @@ import Contact from '../Components/Contact/contact'
 import Skills from '../Components/Skills/skills'
 import Projects from '../Components/Projects/Projects'
 import Certificates from '../Components/Certificate/certificates'
+import ServicesSection from '../Components/Services/Services'
 
 const PortfolioPage = () => {
     return (
@@ -30,6 +31,12 @@ const PortfolioPage = () => {
                 </div>
             </div>
             <Certificates></Certificates>
+            <div className="leaf">
+                <div className="leaf-boho">
+                    <img src="assets/leaf.png" alt="boho" />
+                </div>
+            </div>
+            <ServicesSection></ServicesSection>
             <div className="sun">
                 <div className="sunny1">
                     <img src="assets/sun.png" alt="boho" />

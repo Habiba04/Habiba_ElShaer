@@ -102,25 +102,40 @@
     height: 360px;
 }
 
-.bohemian1{
-    position: absolute;
-    top: -180px;
-    right: -70px;
-    
+.bohemian1 {
+  position: absolute;
+  top: -200px;
+  left: -70px;
 }
-
-.bohemian1 img{
-    transform: rotate(-15deg); /* tilt the image 15 degrees clockwise */
+  
+  .bohemian1 img{
+    transform: rotate(15deg); /* tilt the image 15 degrees clockwise */
     transform-origin: top right;
-}
-
-.bohemian2{
+  }
+  
+  .bohemian2 {
     position: absolute;
-    bottom: -100px;
-    left: -140px;
+    bottom: -160px;
+    right: -130px;
 }
 
 .bohemian2 img{
-    transform: rotate(15deg); /* tilt the image 15 degrees clockwise */
+    transform: rotate(-15deg); /* tilt the image 15 degrees clockwise */
     transform-origin: bottom left;
+}
+
+@media (max-width: 768px) {
+  
+  .bohemian1 {
+    position: absolute;
+    top: -90px;
+    left: -83px;
+  }
+
+  .bohemian2 {
+    position: absolute;
+    bottom: -200px;
+    right: -145px;
+}
+  
 }
