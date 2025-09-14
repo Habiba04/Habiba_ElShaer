@@ -9,7 +9,7 @@ const Journey = () => {
             </div>
 
             {/* Background image */}
-            <img src="assets/journey.png" alt="skills background" className="skills-bg" />
+            <img src="assets/journey.png" alt="skills background" className="skills-bg2" />
             
             <div className="boho">
                 <div className="boho1">

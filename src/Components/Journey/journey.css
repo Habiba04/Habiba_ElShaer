@@ -175,7 +175,7 @@
 
 
   /* Background image */
-  .skills-bg {
+  .skills-bg2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -189,7 +189,7 @@
   
 
   @media (max-width: 1100px) {
-  .skills-bg{
+  .skills-bg2{
     display: none;
   }
 
