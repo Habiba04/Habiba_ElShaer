@@ -7,6 +7,10 @@ const Journey = () => {
             <div className="header-title">
                 <h1>Journey</h1>
             </div>
+
+            {/* Background image */}
+            <img src="assets/journey.png" alt="skills background" className="skills-bg" />
+            
             <div className="boho">
                 <div className="boho1">
                     <img src="assets/boho.png" alt="boho" />

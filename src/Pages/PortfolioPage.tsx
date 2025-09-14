@@ -19,11 +19,11 @@ const PortfolioPage = () => {
             </div>
             <About></About>
             <Journey></Journey>
-            <div className="bohemian">
+            {/* <div className="bohemian">
                 <div className="bohemian1">
                     <img src="assets/boho2.png" alt="boho" />
                 </div>
-            </div>
+            </div> */}
             <Skills></Skills>
             <div className="bohemian">
                 <div className="bohemian2">
