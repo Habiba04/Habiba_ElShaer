@@ -98,7 +98,7 @@ const Projects: React.FC = () => {
                             key={index}
                             onClick={() => handleOpenModal(project)} // 👈 open modal when clicking the whole card
                         >
-                            <img src={project.image} alt={project.title} className="project-image" />
+                            <img src={project.image} loading="lazy" alt={project.title} className="project-image" />
                             <h3 className="project-title">{project.title}</h3>
                             <p className="project-description">{project.description}</p>
                         </div>
@@ -139,7 +139,7 @@ const Projects: React.FC = () => {
                         <div className="modal-content">
                             {/* Left - Image */}
                             <div className="modal-left">
-                                <img src={selectedProject.image} alt={selectedProject.title} />
+                                <img src={selectedProject.image} loading="lazy" alt={selectedProject.title} />
                             </div>
 
                             {/* Right - Details */}

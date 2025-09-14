@@ -34,7 +34,7 @@ const ServicesSection = () => {
             <div className="services-container">
                 {services.map((service) => (
                     <div className="service-card" key={service.id}>
-                        <img src={service.image} alt={service.title} className="service-img" />
+                        <img loading="lazy" src={service.image} alt={service.title} className="service-img" />
                         <h3 className="service-title">{service.title}</h3>
                         <p className="service-description">{service.description}</p>
                     </div>

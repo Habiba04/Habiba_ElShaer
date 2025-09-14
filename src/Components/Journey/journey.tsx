@@ -9,11 +9,11 @@ const Journey = () => {
             </div>
 
             {/* Background image */}
-            <img src="assets/journey.png" alt="skills background" className="skills-bg2" />
+            <img src="assets/journey.png" loading="lazy" alt="skills background" className="skills-bg2" />
             
             <div className="boho">
                 <div className="boho1">
-                    <img src="assets/boho.png" alt="boho" />
+                    <img src="assets/boho.png" loading="lazy" alt="boho" />
                 </div>
             </div>
             <div className="education">
@@ -59,7 +59,7 @@ const Journey = () => {
             </div>
             <div className="boho">
                 <div className="boho2">
-                    <img src="assets/boho.png" alt="boho" />
+                    <img src="assets/boho.png" loading="lazy" alt="boho" />
                 </div>
             </div>
         </div>
