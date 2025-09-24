@@ -10,7 +10,7 @@ const Journey = () => {
 
             {/* Background image */}
             <img src="assets/journey.png" loading="lazy" alt="skills background" className="skills-bg2" />
-            
+
             <div className="boho">
                 <div className="boho1">
                     <img src="assets/boho.png" loading="lazy" alt="boho" />
@@ -40,6 +40,14 @@ const Journey = () => {
                         <h3>Experience</h3>
                     </div>
                     <div className="exp1">
+                        <div className="journey-subtitle">
+                            <p>Cross-Platform Mobile Applications Intern – Digital Egypt Pioneer Initiative (DEPI)</p>
+                        </div>
+                        <div className="journey-content">
+                            <p>Gaining hands-on experience in building cross-platform mobile apps with Flutter and Firebase.</p>
+                        </div>
+                    </div>
+                    <div className="exp2">
                         <div className="journey-subtitle">
                             <p>Freelance Web Designer</p>
                         </div>
