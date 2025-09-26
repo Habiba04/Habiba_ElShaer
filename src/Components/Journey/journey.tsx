@@ -41,14 +41,6 @@ const Journey = () => {
                     </div>
                     <div className="exp1">
                         <div className="journey-subtitle">
-                            <p>Cross-Platform Mobile Applications Intern – Digital Egypt Pioneer Initiative (DEPI)</p>
-                        </div>
-                        <div className="journey-content">
-                            <p>Gaining hands-on experience in building cross-platform mobile apps with Flutter and Firebase.</p>
-                        </div>
-                    </div>
-                    <div className="exp2">
-                        <div className="journey-subtitle">
                             <p>Freelance Web Designer</p>
                         </div>
                         <div className="journey-content">
