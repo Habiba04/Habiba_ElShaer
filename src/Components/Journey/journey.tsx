@@ -22,7 +22,7 @@ const Journey = () => {
                         <h3>Education</h3>
                     </div>
                     <div className="journey-subtitle">
-                        <p>Helwan University</p>
+                        <p>Capital University in Helwan</p>
                     </div>
                     <div className="journey-content">
                         <p>Faculty of Computers and Artificial Intelligence, Software Engineering program</p>
