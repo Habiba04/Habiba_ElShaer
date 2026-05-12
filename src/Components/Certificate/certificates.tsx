@@ -4,22 +4,28 @@ import "./certificates.css";
 const Certificates = () => {
   const certificates = [
     {
+      title: "Cross Platform Mobile App Development",
+      issuer: "Digital Egyptian Pioneers Initiative (DEPI)",
+      date: "Dec. 2025",
+      link: "assets/files/DEPI_CPMAD.pdf"
+    },
+    {
       title: "UI/UX Design",
       issuer: "Sprints",
       date: "Jun. 2025",
-      link: "assets/sprints.pdf"
+      link: "assets/files/sprints.pdf"
     },
     {
       title: "Cyber Security",
       issuer: "BUE, Impact",
       date: "Aug. 2024",
-      link: "assets/cyberSecurity.jpg"
+      link: "assets/files/cyberSecurity.jpg"
     },
     {
       title: "Artificial Intelligence and Machine Learning",
       issuer: "Zewail University, Impact",
       date: "Nov. 2023",
-      link: "assets/ai.jpg"
+      link: "assets/files/ai.jpg"
     }
   ];
 
