@@ -23,7 +23,7 @@ const Hero = () => {
 
                 <div className="image-container">
                     {/* <div className="image-background-shape"></div> */}
-                    <img src="assets/portfolio-img.png" loading='lazy' alt="Habiba" />
+                    <img src="assets/design/portfolio-img.png" loading='lazy' alt="Habiba" />
                 </div>
                 <div className="button">
                     <button className="btn-explore" onClick={() => {
