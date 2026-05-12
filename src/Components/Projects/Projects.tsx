@@ -12,38 +12,52 @@ interface Project {
 
 const projectsData: Project[] = [
     {
+        title: "Capital University Support Ticketing System",
+        description:
+            "Engineered the official centralized ticketing platform for university staff to report and track technical infrastructure issues across campus. I architected dynamic forms with comprehensive validation logic to ensure structured data flow and accurate issue categorization for the IT department. The system features a real-time administrative dashboard built with Ant Design, allowing technicians to monitor ticket lifecycles, assign priority levels, and analyze resolution patterns to improve campus-wide maintenance efficiency.",
+        image: "assets/projects/tsts.jpeg",
+        tools: ["React", "TypeScript", "Ant Design", "Github"],
+    },
+    {
+        title: "Al Raedon",
+        description:
+            "Architected and developed a high-performance, bilingual landing page for a logistics startup, focusing on a sophisticated UI to engage international clients. By leveraging React and TypeScript, I implemented a seamless multilingual interface (Arabic/English) that maintains brand consistency across languages. The project involved collaborating with veteran industry management to translate complex business requirements into a user-centric digital presence, utilizing Ant Design to ensure a responsive and professional corporate aesthetic.",
+        image: "assets/projects/alraedon.jpeg",
+        tools: ["React", "Typescript", "Ant Design", "Github"],
+    },
+    {
         title: "Orchid World Gate",
         description:
             "Developed and deployed the corporation’s landing page, with the primary objective of creating a strong first impression for visitors. The website was designed to clearly communicate the corporation’s values, highlight its range of services, and provide an intuitive user experience. By combining clean design with responsive frontend development, the landing page helped establish credibility, improve brand perception, and make essential information easily accessible to potential clients.",
-        image: "assets/orchid.jpeg",
+        image: "assets/projects/orchid.jpeg",
         tools: ["HTML", "CSS", "Github"],
     },
     {
         title: "Helwan University Club",
         description:
             "Designed the UI and developed the frontend for Phase 1 of the system, focusing on seamless member registration and secure online payments. Integrated modern technologies like RFID cards for quick access, and implemented features to simplify booking activities and facilities.",
-        image: "assets/huc.jpg",
+        image: "assets/projects/huc.jpg",
         tools: ["ReactJS", "CSS", "Bootstrap", "Figma", "Git"],
     },
     {
         title: "Clinic Management System",
         description:
             "Developed a web application for clinic and doctor management, enabling patients to book appointments, access prescriptions, and communicate directly with doctors. Enhanced appointment efficiency by streamlining booking processes and optimizing patient–doctor communication.",
-        image: "assets/clinic.png",
+        image: "assets/projects/clinic.png",
         tools: ["ReactJS", "CSS", "Bootstrap", "Figma", "JSON-server", "Git"],
     },
     {
         title: "Real-time Cinema Booking System",
         description:
             "A real-time movie ticket booking platform that allows users to browse movies, select showtimes, and reserve seats seamlessly. Designed vendor-side features for managing cinemas, screenings, and listings, while ensuring a smooth customer experience through real-time seat availability updates and advanced filtering options. Improved the booking flow to make the process faster, more intuitive, and user-friendly.",
-        image: "assets/movies.jpeg",
+        image: "assets/projects/movies.jpeg",
         tools: ["Angular", "Figma", "Bootstrap", "NodeJS", "REST API", "Git"],
     },
     {
         title: "Test Designs for Mobile Applications",
         description:
             "A collection of experimental mobile app UI/UX designs created to explore different layouts, color schemes, and user flows. These concepts were designed as practice to refine my design process, experiment with creative ideas, and showcase versatility in crafting modern, user-friendly mobile interfaces.",
-        image: "assets/flutter.png",
+        image: "assets/projects/flutter.png",
         tools: ["Flutter", "Dart", "Git", "Local Storage", "Http Requests"],
     },
 ];
