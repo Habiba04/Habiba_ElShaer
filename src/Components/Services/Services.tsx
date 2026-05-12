@@ -4,21 +4,28 @@ import "./Services.css";
 const services = [
     {
         id: 1,
-        image: "assets/bug.png",
+        image: "assets/services/landing.png",
+        title: "Create Landing Pages",
+        description:
+            "Design and develop visually appealing landing pages that effectively communicate your message and drive conversions.",
+    },
+    {
+        id: 2,
+        image: "assets/services/bug.png",
         title: "Fix Front-end Bugs",
         description:
             "Identify and fix front-end bugs to ensure smooth user experience.",
     },
     {
-        id: 2,
-        image: "assets/components.png",
+        id: 3,
+        image: "assets/services/components.png",
         title: "Create React Components",
         description:
             "Design and develop reusable React components for efficient code reuse.",
     },
     {
-        id: 3,
-        image: "assets/responsive.png",
+        id: 4,
+        image: "assets/services/responsive.png",
         title: "Make Website Mobile-Friendly / Responsive",
         description:
             "Design and develop responsive websites that adapt to different screen sizes.",
