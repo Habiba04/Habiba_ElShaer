@@ -12,6 +12,20 @@ interface Project {
 
 const projectsData: Project[] = [
     {
+        title: "Capital University Support Ticketing System",
+        description:
+            "Engineered the official centralized ticketing platform for university staff to report and track technical infrastructure issues across campus. I architected dynamic forms with comprehensive validation logic to ensure structured data flow and accurate issue categorization for the IT department. The system features a real-time administrative dashboard built with Ant Design, allowing technicians to monitor ticket lifecycles, assign priority levels, and analyze resolution patterns to improve campus-wide maintenance efficiency.",
+        image: "assets/projects/tsts.jpeg",
+        tools: ["React", "TypeScript", "Ant Design", "Github"],
+    },
+    {
+        title: "Al Raedon",
+        description:
+            "Architected and developed a high-performance, bilingual landing page for a logistics startup, focusing on a sophisticated UI to engage international clients. By leveraging React and TypeScript, I implemented a seamless multilingual interface (Arabic/English) that maintains brand consistency across languages. The project involved collaborating with veteran industry management to translate complex business requirements into a user-centric digital presence, utilizing Ant Design to ensure a responsive and professional corporate aesthetic.",
+        image: "assets/projects/alraedon.jpeg",
+        tools: ["React", "Typescript", "Ant Design", "Github"],
+    },
+    {
         title: "Orchid World Gate",
         description:
             "Developed and deployed the corporation’s landing page, with the primary objective of creating a strong first impression for visitors. The website was designed to clearly communicate the corporation’s values, highlight its range of services, and provide an intuitive user experience. By combining clean design with responsive frontend development, the landing page helped establish credibility, improve brand perception, and make essential information easily accessible to potential clients.",
