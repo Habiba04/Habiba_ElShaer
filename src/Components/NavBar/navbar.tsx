@@ -15,7 +15,7 @@ function Navbar() {
                     }}>Contact</a>
                     </li>
                     <li>
-                        <a href="/Habiba_ElShaer/assets/Habiba_Elshaer.pdf" target="_blank" rel="noopener noreferrer">
+                        <a href="/Habiba_ElShaer/assets/files/Habiba_Elshaer.pdf" target="_blank" rel="noopener noreferrer">
                             Resume
                         </a>
                     </li>
