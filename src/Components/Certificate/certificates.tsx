@@ -4,6 +4,12 @@ import "./certificates.css";
 const Certificates = () => {
   const certificates = [
     {
+      title: "Technical Support Ticketing System (TSTS)",
+      issuer: "Capital University (Helwan)",
+      date: "Jun. 2026",
+      link: "assets/files/TSTS_CAPU.pdf"
+    },
+    {
       title: "Cross Platform Mobile App Development",
       issuer: "Digital Egyptian Pioneers Initiative (DEPI)",
       date: "Dec. 2025",
